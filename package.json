@@ -1,0 +1,19 @@
+{
+  "name": "address-book-demo",
+  "version": "1.0.0",
+  "description": "Simple address book",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/address-book-demo.git"
+  },
+  "author": "Tiffany White",
+  "license": "ISC"
+}
