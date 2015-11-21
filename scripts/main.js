@@ -1,3 +1,3 @@
 //
 
-var contacts = []
+var contacts = [];

@@ -15,5 +15,10 @@
     "url": "https://git.heroku.com/address-book-demo.git"
   },
   "author": "Tiffany White",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
