@@ -8,8 +8,9 @@
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
-.jumbotron {
+.container {
     text-align: center;
+    width: auto;
     border-bottom: 1px solid #e5e5e5;
     display: block;
     margin-left: 4px;
@@ -26,5 +27,5 @@
 }
 
 div {
-    text-align: 
+    text-align:
 }
