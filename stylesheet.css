@@ -8,6 +8,7 @@
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
+
 .container {
     text-align: center;
     width: auto;
@@ -23,7 +24,7 @@
 }
 
 .navbar-header {
-    border-bottom-width: 200px;
+    width: auto;
 }
 
 div {

@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"
-    <title></title>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"
+  <title></title>
 </head>
 <body>
 
-<div class="navbar-header">
-    <ul class="nav nav-tabs">
-        <li role="presentation"><a href="index.html">Contacts</a></li>
-        <li role="presentation" class="active"><a href="addContacts.html">Add Contacts</a></li>
-        <li role="presentation"><a href="Phone.html">Phone</a></li>
-        <li role="presentation"><a href="Email.html">Email</a> </li>
+  <div class="navbar-header">
+    <ul class="nav nav-pills">
+      <li role="presentation"><a href="index.html">Contacts</a></li>
+      <li role="presentation" class="active"><a href="addContacts.html">Add Contacts</a></li>
+      <li role="presentation"><a href="Phone.html">Phone</a></li>
+      <li role="presentation"><a href="Email.html">Email</a> </li>
     </ul>
-</div>
-<div class="col-sm-3 col-md-3 pull-right">
+  </div>
+  <div class="col-sm-3 col-md-3 pull-right">
     <form class="navbar-form" role="search">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
         </div>
+      </div>
     </form>
-</div>
-
-<div class="center-block">
-    <form>
-        <fieldset class="form-group">
-            <label for="exampleInputName1">Name</label>
-            <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter name">
-        </fieldset>
-        <fieldset class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-            <small class="text-muted">I'll never share your email with anyone else.</small>
-        </fieldset>
-        <fieldset class="form-group">
-            <label for="exampleInputPhoneNumber">Phone Number</label>
-            <input type="phone number" class="form-control" id="exampleInputPhoneNumber" placeholder="Phone Number">
-            <small class="text-muted">I'll never share this with anyone. It's safe here.</small>
-        </fieldset>
-    </form>
-</div>
-
-
+  </div>
+  <div class="center-block">
+     <form>
+         <fieldset class="form-group">
+             <label for="exampleInputName1">Name</label>
+             <input type="name" class="form-control" id="inputName" placeholder="Enter name">
+         </fieldset>
+         <fieldset class="form-group">
+             <label for="exampleInputEmail1">Email</label>
+             <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+             <small class="text-muted">I'll never share your email with anyone else.</small>
+         </fieldset>
+         <fieldset class="form-group">
+             <label for="exampleInputPhoneNumber">Phone Number</label>
+             <input type="phone number" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
+             <small class="text-muted">I'll never share this with anyone. It's safe here.</small>
+         </fieldset>
+        <button onclick type="submit" class="btn btn-default">Submit</button>
+     </form>
+ </div>
 </body>
 </html>
