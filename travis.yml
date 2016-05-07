@@ -4,5 +4,5 @@ node_js:
   - "4.0.0"
   - "5"
 before_script:
- - chmod 0777 ./node_modules/
+ - chmod 0777 /Users/tiffanywhite/Desktop/Git_Repositories/address-book-demo/node_modules/
 script: npm test
