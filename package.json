@@ -7,6 +7,6 @@
     "jshint": "^2.9.2"
   },
   "scripts": {
-    "test": "/Users/tiffanywhite/Desktop/Git Repositories/address-book-demo/app.js"
+    "test": "/Users/tiffanywhite/Desktop/Git_Repositories/address-book-demo/scripts/app.js"
   }
 }
