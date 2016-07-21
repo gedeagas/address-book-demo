@@ -54,3 +54,7 @@ _ReSharper*/
 
 #TODO Files
 *.taskpaper
+
+#Webstorm junk
+*.iml
+.idea
