@@ -7,6 +7,6 @@
     "jshint": "^2.9.2"
   },
   "scripts": {
-    "test": "/app.js"
+    "test": "app.js"
   }
 }

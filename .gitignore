@@ -31,6 +31,7 @@ obj/
 [Rr]elease*/
 Ankh.NoLoad
 
+
 #Tooling
 _ReSharper*/
 *.resharper
@@ -44,3 +45,12 @@ _ReSharper*/
 
 # Office Temp Files
 ~$*
+
+#Prepos Server files
+*.cfg
+
+#Log files
+*.log*
+
+#TODO Files
+*.taskpaper
