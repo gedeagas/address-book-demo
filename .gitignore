@@ -47,7 +47,7 @@ _ReSharper*/
 ~$*
 
 #Prepos Server files
-*.cfg
+.cfg
 
 #Log files
 *.log*
