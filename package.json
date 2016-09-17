@@ -1,12 +1,32 @@
 {
-  "name": "contacts-app",
-  "description": "Simple Travis-CI check for JSHint (Code Linting) for my contacts app",
-  "author": "Tiffany White",
-  "version": "0.0.1",
+  "name": "js-contacts-app",
+  "version": "1.0.0",
+  "description": "Contacts app to show off JS Sklliz",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "gitbook-cli": "^2.1.3",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "v8-profiler": "^5.5.0"
+  },
   "devDependencies": {
-    "jshint": "^2.9.2"
+    "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "app.js"
-  }
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhite96/address-book-demo.git"
+  },
+  "author": "Tiffany White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twhite96/address-book-demo/issues"
+  },
+  "homepage": "https://github.com/twhite96/address-book-demo#readme"
 }
