@@ -58,3 +58,4 @@ _ReSharper*/
 #Webstorm junk
 *.iml
 .idea
+node_modules
