@@ -12,3 +12,29 @@ This is the most *basic* of contact apps. It is a project I started last year an
 Once I get comfortable with vanilla JavaScript and have worked my way through the Advanced Front-End and Backend projects at Free Code Camp, I will add some Node.js and Postgres.
 
 For now it is a place to store and search a small database of contacts, or an address book.
+
+## Contributing
+
+I am not expecting a lot of contributions. But if you *do* contribute, fork the repo, and submit a pull request. I will be adding feature branches in the near future.
+
+Keep it to vanilla JavaScript or jQuery for now. Still learning the basics. No frameworks, no matter how much better it will make the app. Still working through school and Free Code Camp so in time there will be more features.
+
+## Usage
+
+*App is still in the very early stages*. I am working on it but not as frequently. I plan to get it done by the end of next year's summer break.
+
+## Help
+
+You can help me with this project, submit bugs and feature requests at my [Trello board](https://trello.com/b/VNH81bEd) or submit issues here on GitHub
+
+## Credits
+
+I am the only author of this app
+
+## Contact
+
+You can contact me at <hey@tiffanyrwhite.com> for any concerns or comments.
+
+## License
+
+This Project is Licensed under MIT License.
