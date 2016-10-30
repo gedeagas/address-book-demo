@@ -45,7 +45,8 @@ I am not expecting a lot of contributions. But if you *do* contribute, fork the 
 Keep it to vanilla JavaScript or jQuery for now. Still learning the basics. No frameworks, no matter how much better it will make the app. Still working through school and Free Code Camp so in time there will be more features.
 
 ## Release history:
-* 0.0.1 Work in Progress
+* 0.0.1 
+	* Work in Progress
 
 ## Help
 
