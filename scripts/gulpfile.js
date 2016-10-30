@@ -1,13 +1,7 @@
-var gulp = require('gulp');
-var mocha = require('gulp-mocha');
-var gutil = require('gulp-util');
+var gulp = require('gulp'),
+  qunit = require('gulp-qunit');
 
 gulp.task('default', function() {
-      gulp.watch(['lib/**', 'test/**'], ['mocha']);
-});
-
-gulp.task('mocha', function() {
-    return gulp.src(['test/*.js'], { read: false })
-        .pipe(mocha({ reporter: 'list' }))
-        .on('error', gutil.log);
+  return gulp.src('/tests/unit/js-contacts-app.html')
+    .pipe(qunit());
 });
