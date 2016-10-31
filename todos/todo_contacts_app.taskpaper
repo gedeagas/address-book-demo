@@ -1,0 +1,16 @@
+Creating basic functionality:
+- Create JavaScript object literals at top of app.js  @done(2016-05-08)
+- Use getElementByID() to select the different text boxes for input  @done(2016-05-08)
+- Create a function/functions for adding data to appropriate object literals according to their name/type of data
+- Need to write a function to gather first names and last names through input @done(2016-05-08)
+- Need to write a function gather phone numbers through input
+- Need to write a function to gather emails through input.
+- Fix color of navbar link text in css
+@start(today) @contacts-app @due June 30th) @active 
+
+	Adding depth:
+	- Learn how to store the data
+	- Learn how to retrieve data with search 
+	- Learn how to save state
+	- Learn about lodash
+@contacts-app @start June 30th) @due August 10th) @hold
